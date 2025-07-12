@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://dsrrgcific4ha"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(0.999731, 0, -0.0231759, 0, 1, 0, 0.0231759, 0, 0.999731, 0.450244, 0.00904024, 3.65346)
+size = Vector3(21.1805, 1, 11.2372)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="."]
+transform = Transform3D(0.999576, -0.0014705, 0.0290883, 8.93751e-10, 0.998725, 0.0504884, -0.0291254, -0.050467, 0.998301, 4.4648, 1.85189, 3.52072)
+size = Vector3(1, 3.24231, 10.2581)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="."]
+transform = Transform3D(0.00496673, 0.0246942, 0.999683, -0.000272727, 0.999695, -0.0246932, -0.999988, -0.000149996, 0.00497194, -0.237129, 1.69517, -1.20233)
+size = Vector3(1, 3.24231, 10.2581)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="."]
+transform = Transform3D(-0.999926, 0.00739855, -0.00963737, 0.00764965, 0.999625, -0.026282, 0.0094393, -0.0263537, -0.999608, -4.53075, 1.74704, 6.16941)
+size = Vector3(3.30164, 3.24231, 2.86149)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="."]
+transform = Transform3D(0.00566887, 0.00020235, 0.999984, -0.028587, 0.999591, -4.02257e-05, -0.999575, -0.0285863, 0.00567232, -0.968784, 2.09282, 8.05574)
+size = Vector3(1, 3.24231, 10.2581)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="."]
+transform = Transform3D(-0.078118, -0.996903, -0.00903073, 0.00110564, 0.00897179, -0.999959, 0.996944, -0.0781248, 0.000401331, -3.96586, 2.02056, 0.842126)
+size = Vector3(3.04527, 3.24231, 2.87575)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0.000802849, 0, -0.000802849, 1, 0.49118, 2.69331, 3.3825)
+size = Vector3(6.62598, 1, 8.44342)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.131651, 0.282323, -0.950243, -0.967963, -0.24337, 0.0617993, -0.213813, 0.927936, 0.305318, -17.8213, 1.86909, 4.00485)
+fov = 87.1875
