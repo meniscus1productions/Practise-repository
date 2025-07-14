@@ -10,11 +10,16 @@ config_version=5
 
 [application]
 
-config/name="New Game Project"
-run/main_scene="res://static_body_3d.tscn"
+config/name="Test 1"
+run/main_scene="uid://3cqg2npsl7go"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/block_code/plugin.cfg")
+
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="mobile"
